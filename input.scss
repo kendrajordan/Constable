@@ -1,5 +1,29 @@
+@font-face {
+font-family: "Trifore";
+src: url("webfontkit-20180921-111932/triforce-webfont.woff") format("woff");
+}
+@import url('https://fonts.googleapis.com/css?family=Bellefair|Josefin+Slab:400,700');
+
 h1{
-  color:gold;
+  color:red;
   text-align: center;
-  
+  font-family: Trifore;
+  font-size: 3rem;
+}
+h2{
+  font-family: 'Josefin Slab', serif;
+}
+.jumbotron{
+background-image: url(https://vignette.wikia.nocookie.net/zelda/images/2/2a/Link_Hyrule_Warriors.png/revision/latest?cb=20140620205907);
+background-image: url(https://vignette.wikia.nocookie.net/zelda/images/2/26/Link_Epona_%28Hyrule_Warriors%29.png/revision/latest/scale-to-width-down/350?cb=20140930125513);
+}
+img{
+  width:12rem;
+  height: auto;
+}
+p{
+  font-family: 'Bellefair', serif;
+}
+ol > li{
+  font-family: 'Josefin Slab', serif;
 }
