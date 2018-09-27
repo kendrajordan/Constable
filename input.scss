@@ -3,12 +3,26 @@ font-family: "Trifore";
 src: url("webfontkit-20180921-111932/triforce-webfont.woff") format("woff");
 }
 @import url('https://fonts.googleapis.com/css?family=Bellefair|Josefin+Slab:400,700');
+html,body{
+  margin:0;
+  padding:0;
+}
+
+.navbar{
+  background-color: #CA9B29;
+}
+a.btn.btn-secondary{
+  color:blue;
+}
 main{
   background-color: rgb(241,212,144);
 }
-
+.container-fluid{
+  margin:0;
+  padding:0;
+}
 h1,h2,h3,h4{
-  color:red;
+  color:#BB312E;
   text-align: center;
   font-family: Trifore;
   font-size: 3rem;
@@ -20,8 +34,6 @@ h2{
 }
 .jumbotron{
 background-color: rgb(76,167,61);
-
-
 }
 
 p{
@@ -29,10 +41,20 @@ p{
   font-size: 2rem;
   color: rgb(136,60,0);
 }
+.issue{
+    border:2px rgb(136,60,0) solid;
+    border-radius: 20px;
+}
 .issue > p{
   display:flex;
   align-items:center;
+  border-radius: 5px;
 }
+.row{
+  max-width:100%;
+}
+
+
 footer{
   background-color: rgb(76,167,61);
   max-height: 100%;
